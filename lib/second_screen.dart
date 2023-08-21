@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:state_managment/third_screen.dart';
 
 import 'cubit_screens/radio_button_by_cubit.dart';
 
@@ -35,7 +36,7 @@ class _Screen2State extends State<Screen2> {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => Screen2()),
+                  MaterialPageRoute(builder: (context) => ReplaceUiScreen()),
                 );
               },
               child: const Text(
